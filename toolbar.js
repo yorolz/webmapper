@@ -323,7 +323,7 @@ function createLookbackPickerBar ()
 	document.getElementById("lookbackbutton").classList.add("toolbutton-active");
 
 	var buttons = [];
-	var lookbackList = [10, 15, 20, 30, 50, 100];
+	var lookbackList = [10, 15, 20, 30, 50, 1000]
 	for (var i = 0; i < 6; i++)
 	{
 		buttons[i] = box.append("div")
